@@ -1,0 +1,23 @@
+INFO    2021-05-13 01:29:04,239 [main] base.BaseTest  - Logger configured!!!
+INFO    2021-05-13 01:29:04,240 [main] base.BaseTest  - OR properties configured!!
+INFO    2021-05-13 01:29:04,240 [main] base.BaseTest  - Config properties configured!!
+INFO    2021-05-13 01:29:06,262 [main] base.BaseTest  - Navigated to TestSite URLnull
+INFO    2021-05-13 01:29:06,526 [main] base.BaseTest  - bmlBtn_CSS  has been clicked
+INFO    2021-05-13 01:29:06,667 [main] base.BaseTest  - AddCustomerBtn_CSS  Element is present
+INFO    2021-05-13 01:29:07,319 [main] base.BaseTest  - AddCustomerBtn_CSS  has been clicked
+INFO    2021-05-13 01:29:07,581 [main] base.BaseTest  - firstName_CSS  Element has been Typed  Himanshu
+INFO    2021-05-13 01:29:07,671 [main] base.BaseTest  - lastName_CSS  Element has been Typed  Mahendru
+INFO    2021-05-13 01:29:07,751 [main] base.BaseTest  - postCode_CSS  Element has been Typed  A22111
+INFO    2021-05-13 01:29:07,810 [main] base.BaseTest  - AddCustConfirm_CSS  has been clicked
+INFO    2021-05-13 01:29:08,243 [main] base.BaseTest  - AddCustomerBtn_CSS  has been clicked
+INFO    2021-05-13 01:29:08,309 [main] base.BaseTest  - firstName_CSS  Element has been Typed  Shivam 
+INFO    2021-05-13 01:29:08,371 [main] base.BaseTest  - lastName_CSS  Element has been Typed  Mahendru
+INFO    2021-05-13 01:29:08,419 [main] base.BaseTest  - postCode_CSS  Element has been Typed  S22222
+INFO    2021-05-13 01:29:08,478 [main] base.BaseTest  - AddCustConfirm_CSS  has been clicked
+INFO    2021-05-13 01:29:08,841 [main] base.BaseTest  - AddCustomerBtn_CSS  has been clicked
+INFO    2021-05-13 01:29:08,898 [main] base.BaseTest  - firstName_CSS  Element has been Typed  Priya
+INFO    2021-05-13 01:29:08,968 [main] base.BaseTest  - lastName_CSS  Element has been Typed  Mahendru
+INFO    2021-05-13 01:29:09,038 [main] base.BaseTest  - postCode_CSS  Element has been Typed  P22111
+INFO    2021-05-13 01:29:09,094 [main] base.BaseTest  - AddCustConfirm_CSS  has been clicked
+INFO    2021-05-13 01:29:09,384 [main] base.BaseTest  - openAcc_CSS  has been clicked
+INFO    2021-05-13 01:29:25,524 [main] base.BaseTest  - Test Case Execution completed

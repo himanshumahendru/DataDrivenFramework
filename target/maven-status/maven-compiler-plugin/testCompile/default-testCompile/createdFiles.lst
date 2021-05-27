@@ -1,0 +1,11 @@
+testcases\BankManagerLoginTest.class
+utilities\ExcelReader.class
+utilities\ScreenshotUtil.class
+base\BaseTest.class
+testcases\AddCustomer.class
+extentlisteners\ExtentListener.class
+utilities\DataUtil.class
+utilities\DbManager.class
+utilities\TestConfig.class
+extentlisteners\ExtentManager.class
+testcases\OpenAccount.class

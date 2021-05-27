@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DataDriven]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="extentlisteners.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Bank Manager Login Test(failed)">
+    <classes>
+      <class name="testcases.BankManagerLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="bankManagerLogin"/>
+        </methods>
+      </class> <!-- testcases.BankManagerLoginTest -->
+    </classes>
+  </test> <!-- Bank Manager Login Test(failed) -->
+  <test thread-count="5" verbose="0" name="Add Customer Test(failed)">
+    <classes>
+      <class name="testcases.AddCustomer">
+        <methods>
+          <include name="addCust" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.AddCustomer -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
+  <test thread-count="5" verbose="0" name="Open Account Test(failed)">
+    <classes>
+      <class name="testcases.OpenAccount">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="openAcc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.OpenAccount -->
+    </classes>
+  </test> <!-- Open Account Test(failed) -->
+</suite> <!-- Failed suite [DataDriven] -->
